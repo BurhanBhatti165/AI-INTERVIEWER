@@ -1,0 +1,46 @@
+=== Interview Summary (2025-07-05 23:37) ===
+Candidate: bunny | Domain: Web Development
+
+Q1:  Given your experience in building AI-driven web applications, let's dive into the details of your project with the offline AI web app for HR/technical interviews. Can you explain how you optimized this application for better performance and SEO considering it was an offline web app? Furthermore, since we are focusing on web development, can you discuss a strategy to handle different input types within such an application, ensuring they are recognized correctly, even if a standard text box is not explicitly defined?
+A1: i guess i dont have any idea about it 
+Score: 2/10
+Feedback: The candidate did not provide an answer to the question, instead indicating a lack of relevant knowledge or experience. It is essential for a web development candidate to have some understanding of performance optimization techniques and SEO strategies, especially when building AI-driven offline web apps. Additionally, discussing a strategy for handling different input types is important for any interactive application. The candidate should review related resources, such as best practices for offline web apps, performance optimization, SEO, and handling non-standard inputs to improve their understanding in these areas.
+
+=============================================
+
+=== Interview Summary (2025-07-07 02:45) ===
+Candidate: bunny | Domain: Web Development
+
+Q1: Hello! Thanks for coming in. I've had a look at your resume, and your "AI Resume Interviewer" project caught my eye, especially since it's described as an "offline AI web app" built with Streamlit.
+
+Could you elaborate on your experience with building web applications, and specifically, what led you to choose Streamlit for this project? What were some of the advantages or challenges you encountered using it for a web interface?
+A1: good
+Score: 1/10
+Feedback: The answer "good" provides no information or elaboration whatsoever. It completely fails to address any part of the question regarding your experience, technology choices, or the advantages/challenges faced. This is an entirely insufficient response for a technical interview.
+
+Q2: The resume context mentions "MERN Stack Developer" and "Full-Stack Web Developer". Can you elaborate on the components of the MERN stack and explain how each technology contributes to building a full-stack web application?
+A2: ok
+Score: 1/10
+Feedback: The answer "ok" does not provide any information or elaboration on the MERN stack components or their contributions. Please provide a detailed response to the question.
+
+=============================================
+
+=== Interview Summary (2025-07-07 02:50) ===
+Candidate: Burhan | Domain: Web Development
+
+Q1: Welcome! Thanks for coming in today. I've had a chance to review your resume, and your "AI Resume Interviewer" project particularly caught my eye.
+
+You mentioned building an "offline AI web app" using Streamlit for this project. Could you elaborate on your experience with Streamlit in this context? Specifically, what were some of the design decisions you made regarding the user interface, and did you face any unique challenges developing an "offline" web application?
+A1: noo
+Score: 1/10
+Feedback: The response "noo" does not address any part of the question and is completely unprofessional. It indicates a severe communication breakdown or unwillingness to engage.
+
+Q2: Alright, let's dive in.
+
+Given the importance of user experience across various devices, how do you approach implementing responsive design in your web projects? Could you elaborate on the CSS techniques and principles you typically use?
+A2: nooo
+Score: 1/10
+Feedback: The answer provided no relevant information to the question.
+
+=============================================
+

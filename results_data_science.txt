@@ -1,0 +1,32 @@
+=== Interview Summary (2025-07-07 02:11) ===
+Candidate: Burhan | Domain: Data Science
+
+Q1: In your "AI Resume Interviewer" project, you mentioned implementing "LLM-driven scoring and feedback based on selected fields (AI/ML, Web, DS)". From a Data Science perspective, how did you approach evaluating the effectiveness and accuracy of this scoring and feedback mechanism specifically for the 'Data Science' field? What metrics or statistical methods did you consider to validate its performance?
+A1: i dont knwo
+
+
+Score: 1/10
+Feedback: This answer indicates a complete lack of understanding regarding how to validate a core component of your project from a Data Science perspective. In an interview, it's critical to be able to articulate the methodologies for evaluating the performance and accuracy of any model, especially one you've implemented. You should be prepared to discuss how you would define ground truth, what metrics (e.g., correlation with human scores, precision/recall for specific feedback points, RMSE for numerical scores) you'd use, and what experimental setups (e.g., A/B testing, human-in-the-loop validation) you'd consider.
+
+Q2: Given your stated interest in Data Analysis and Data Visualization, imagine you're presented with a new, raw dataset. What are the first few steps you would take to understand its structure, identify potential issues, and prepare it for analysis? What statistical summaries or visualizations would you initially create to gain fundamental insights?
+A2: klxncmcn
+Score: 1/10
+Feedback: The answer provided is unintelligible and does not address the question.
+
+=============================================
+
+=== Interview Summary (2025-07-07 02:55) ===
+Candidate: bunny | Domain: Data Science
+
+Q1: Your resume highlights the implementation of "smart LLM-driven scoring and feedback based on selected fields (AI/ML, Web, DS)" within your AI Resume Interviewer project. From a Data Science perspective, how would you define and measure the quantitative effectiveness of this "smart scoring" for a given field like Data Science? What statistical methods would you employ to evaluate the accuracy, consistency, and potential biases of these LLM-generated scores and feedback?
+A1: jj
+Score: 1/10
+Feedback: The provided answer "jj" is incomplete and does not address the question. Please provide a full response to allow for evaluation.
+
+Q2: The resume highlights your interest in "Data Analysis" and "Statistical methods." Could you describe a situation where you had to deal with missing data or outliers during your data analysis process? What statistical methods or techniques did you employ to handle them, and how did it impact your findings?
+A2: kk
+Score: 1/10
+Feedback: The provided answer "kk" is not a substantive response to the question. It offers no details regarding a situation, the methods employed, or the impact on findings. Please provide a detailed answer as requested.
+
+=============================================
+

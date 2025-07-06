@@ -1,0 +1,48 @@
+=== Interview Summary (2025-07-07 02:01) ===
+Candidate: bunny | Domain: AI/ML
+
+Q1: In your AI Resume Interviewer project, you leveraged LangChain and FAISS for a RAG-based approach to resume parsing and context retrieval. Can you elaborate on the specific strategies you employed for chunking the resume data and indexing it with FAISS to ensure optimal retrieval of relevant information for the LLM, particularly when dealing with varying resume formats and content?
+A1: nooooooooooooooo
+Score: 1/10
+Feedback: The response "nooooooooooooooo" does not provide any information relevant to the question. This indicates a complete inability to answer the technical query.
+
+Q2: On your PrepFAST project, you mentioned developing a web platform to "generate AI-based practice questions" and implementing "paper evaluation features." Could you elaborate on the specific machine learning models or techniques you considered or employed for generating these questions and for providing interactive feedback during paper evaluation?
+A2: noooooooooooooooooooooooooooooooooooooooo
+
+Score: 1/10
+Feedback: The response provided no information or attempt to answer the question, making it impossible to evaluate any technical understanding.
+
+=============================================
+
+=== Interview Summary (2025-07-07 02:24) ===
+Candidate: bunny | Domain: AI/ML
+
+Q1: In your "AI Resume Interviewer" project, you integrated LangChain and FAISS for a RAG-based resume parsing and context retrieval system. Can you elaborate on the specific challenges you faced in ensuring the retrieved context was both relevant and concise for the LLM, and how you evaluated the effectiveness of your RAG pipeline in improving the quality of the interview responses?
+A1: no i dont knoe
+
+Score: 1/10
+Feedback: This response indicates a complete lack of familiarity with the project details, raising serious concerns about its inclusion on your resume.
+
+Q2: In your PrepFAST project, you mentioned generating AI-based practice questions. Could you elaborate on the specific AI/ML techniques or models you employed for this generation? How did you approach ensuring the relevance and quality of the generated questions to match different subject matters or difficulty levels?
+A2: knc
+
+Score: 1/10
+Feedback: The answer "knc" does not provide any information regarding the AI/ML techniques used or the approach to ensuring question quality. Please elaborate on your project.
+
+=============================================
+
+=== Interview Summary (2025-07-07 02:29) ===
+Candidate: Burhan | Domain: AI/ML
+
+Q1: In your "AI Resume Interviewer" project, you integrated LangChain and FAISS for RAG-based resume parsing and context retrieval. Could you elaborate on the specific role of FAISS in this RAG pipeline, and what made it a suitable choice for efficiently retrieving relevant context from resumes, especially considering the nature of textual data and the need for semantic similarity?
+A1: ,
+Score: 1/10
+Feedback: The provided answer is a single comma, which does not elaborate on the specific role of FAISS in the RAG pipeline. As such, it provides no demonstrable understanding of the technology or its application in your project. A strong answer would have detailed FAISS's role as a high-performance library for efficient similarity search on dense vectors, explaining how it indexes document embeddings (from resumes) to quickly find semantically similar chunks based on a query, and why this is crucial for RAG.
+
+Q2: Regarding your PrepFAST project, you mentioned generating "AI-based practice questions." Could you elaborate on the specific machine learning models or techniques you utilized for this generation process? What were the primary challenges you faced in ensuring the quality and relevance of these AI-generated questions, and how did you address them?
+A2: ..
+Score: 0/10
+Feedback: as the candidate's "Answer" is missing. Please provide the candidate's response to the question.
+
+=============================================
+

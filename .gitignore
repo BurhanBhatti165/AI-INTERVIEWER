@@ -1,0 +1,6 @@
+.env
+temp_resume.txt
+temp_resume.json
+# Ignore temporary files
+# Ignore environment variable files
+# This file contains sensitive information and should not be shared or committed to version control.
