@@ -10,5 +10,6 @@ pydantic==2.11.7
 python-dotenv==1.1.1
 streamlit==1.46.1
 sentence-transformers
-unstructured==0.13.1
+unstructured==0.12.3  # downgraded to avoid conflict with langchain_unstructured
+
 
