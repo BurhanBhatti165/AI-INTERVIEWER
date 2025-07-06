@@ -8,22 +8,22 @@ langchain_text_splitters==0.3.8
 langchain_unstructured==0.1.6
 
 # 🔹 Document Parsing (PDF Support)
-unstructured[pdf]==0.12.3  # Required for PDF parsing with UnstructuredLoader
+unstructured[pdf]==0.12.3
+onnxruntime==1.15.1  # ✅ compatible
 
 # 🔹 Vector Store & Embeddings
-faiss-cpu==1.7.4            # Ensure FAISS for CPU
+faiss-cpu==1.7.4
 sentence-transformers==5.0.0
-onnxruntime==1.19.0
 
 # 🔹 Core Utilities
 pydantic==2.11.7
 python-dotenv==1.1.1
 streamlit==1.46.1
 
-# 🔹 Web Document Loader (Used in WebBaseLoader)
+# 🔹 Web Document Loader
 beautifulsoup4==4.13.4
 requests==2.32.4
 
-# Optional: Just for suppressing warnings & performance
-loguru==0.7.2                # (optional, if you want better logging)
-watchdog==6.0.0              # Streamlit dependency for file watching
+# Optional
+loguru==0.7.2
+watchdog==6.0.0
