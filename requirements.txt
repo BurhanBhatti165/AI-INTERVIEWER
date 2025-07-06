@@ -1,3 +1,4 @@
+# 🔹 LangChain Core & Extensions
 langchain==0.3.26
 langchain_community==0.3.27
 langchain_core==0.3.68
@@ -5,11 +6,24 @@ langchain_google_genai==2.1.6
 langchain_huggingface==0.3.0
 langchain_text_splitters==0.3.8
 langchain_unstructured==0.1.6
+
+# 🔹 Document Parsing (PDF Support)
+unstructured[pdf]==0.12.3  # Required for PDF parsing with UnstructuredLoader
+
+# 🔹 Vector Store & Embeddings
+faiss-cpu==1.7.4            # Ensure FAISS for CPU
+sentence-transformers==5.0.0
 onnxruntime==1.19.0
+
+# 🔹 Core Utilities
 pydantic==2.11.7
 python-dotenv==1.1.1
 streamlit==1.46.1
-sentence-transformers
-unstructured==0.12.3  # downgraded to avoid conflict with langchain_unstructured
 
+# 🔹 Web Document Loader (Used in WebBaseLoader)
+beautifulsoup4==4.13.4
+requests==2.32.4
 
+# Optional: Just for suppressing warnings & performance
+loguru==0.7.2                # (optional, if you want better logging)
+watchdog==6.0.0              # Streamlit dependency for file watching
