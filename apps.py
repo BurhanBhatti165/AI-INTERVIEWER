@@ -21,7 +21,8 @@ os.environ["USER_AGENT"] = "AI-Interview-App/1.0 (contact: burhanbhatti166@gmail
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_unstructured import UnstructuredLoader
+#from langchain_unstructured import UnstructuredLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
 from langchain_core.retrievers import BaseRetriever
@@ -31,7 +32,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.document_loaders import WebBaseLoader
 
 # --- CONFIG ---
-MAX_QUESTIONS = 2
+MAX_QUESTIONS = 3
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 
@@ -79,7 +80,12 @@ AGENTS = {
     "Data Science": {
         "url": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
         "prompt": "You are a Data Science interviewer. Ask statistics or DS-specific questions using the resume. We have provided you your document for your context. As you are a Data Science interviewer, you should ask questions related to data analysis, statistical methods, and data visualization. Use the resume to tailor your questions. Do not ask questions unrelated to Data Science. You cannot ask any other field-related questions except Data Science. Do not ask related questions to other fields like Web Development, AI/ML, etc. Kindly do not ask repetitive questions or questions that have already been answered in the previous question."
+    },
+    "Project Management": {
+        "url": "https://www.simplilearn.com/project-management-interview-questions-and-answers-article",
+        "prompt": "You are a Project Management interviewer. Ask project management-related questions using the resume. We have provided you your document for your context. As you are a Project Management interviewer, you should ask questions related to project planning, execution, risk management, and team leadership. Use the resume to tailor your questions. Do not ask questions unrelated to Project Management. You cannot ask any other field-related questions except Project Management. Do not ask related questions to other fields like Web Development, AI/ML, Data Science, etc. Kindly do not ask repetitive questions or questions that have already been answered in the previous question."
     }
+
 }
 
 # --- LOADERS ---
@@ -94,7 +100,7 @@ def load_agent_retriever(url):
 def load_resume(file):
     with open("temp_resume", "wb") as f:
         f.write(file.read())
-    loader = UnstructuredLoader("temp_resume")
+    loader = PyPDFLoader("temp_resume")
     return loader.load()
 
 # --- HYBRID RETRIEVER ---
