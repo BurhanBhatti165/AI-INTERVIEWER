@@ -7,29 +7,29 @@ langchain_huggingface==0.3.0
 langchain_text_splitters==0.3.8
 
 # 🔹 Document Loaders
-pypdf==3.17.4
-unstructured[pdf]==0.12.3
+pypdf  # No version pinning needed
+unstructured[pdf]  # Uses latest compatible version
 
 # 🔹 Embeddings & Vector Store
-faiss-cpu==1.7.4
-sentence-transformers==5.0.0
+faiss-cpu
+sentence-transformers==5.0.0  # Hugely stable but major changes in future possible
 
 # 🔹 Runtime, Parsing & UI
-python-dotenv==1.0.1  # Downgraded to latest stable non-beta
+python-dotenv
 streamlit==1.46.1
-pydantic==2.6.4  # Compatible with LangChain 0.3.x
+pydantic>=2.7.4,<3.0.0  # Compatible with langchain 0.3.26
 
 # 🔹 Web Loader
-beautifulsoup4==4.13.4
-requests==2.32.4
+beautifulsoup4
+requests
 
 # 🔹 Optional (Logging, Hot Reload)
-loguru==0.7.2
-watchdog==6.0.0
+loguru
+watchdog
 
 # 🔹 For Gemini / Google Generative AI
 google-generativeai==0.5.2
-protobuf==4.25.3
+protobuf  # Let pip resolve correct version for google-generativeai
 
 # 🔹 PDF AI Tools
-onnxruntime==1.19.0
+onnxruntime  # Unstructured uses this under-the-hood
