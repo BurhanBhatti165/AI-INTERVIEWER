@@ -1,13 +1,13 @@
 # 🔹 LangChain Core & Integrations
 langchain==0.3.26
-langchain_community==0.3.27
 langchain_core==0.3.68
+langchain_community==0.3.27
 langchain_google_genai==2.1.6
 langchain_huggingface==0.3.0
 langchain_text_splitters==0.3.8
 
 # 🔹 Document Loaders
-pypdf==3.17.4  # Required by PyPDFLoader
+pypdf==3.17.4
 unstructured[pdf]==0.12.3
 
 # 🔹 Embeddings & Vector Store
@@ -15,9 +15,9 @@ faiss-cpu==1.7.4
 sentence-transformers==5.0.0
 
 # 🔹 Runtime, Parsing & UI
-python-dotenv==1.1.1
+python-dotenv==1.0.1  # Downgraded to latest stable non-beta
 streamlit==1.46.1
-pydantic==2.11.7
+pydantic==2.6.4  # Compatible with LangChain 0.3.x
 
 # 🔹 Web Loader
 beautifulsoup4==4.13.4
@@ -28,8 +28,8 @@ loguru==0.7.2
 watchdog==6.0.0
 
 # 🔹 For Gemini / Google Generative AI
-google-generativeai>=0.6.18,<0.7.0
-protobuf==4.25.3  # Safe with latest Gemini SDK
+google-generativeai==0.5.2
+protobuf==4.25.3
 
 # 🔹 PDF AI Tools
-onnxruntime==1.19.0  # Compatible with unstructured[pdf]
+onnxruntime==1.19.0
