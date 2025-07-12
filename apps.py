@@ -16,7 +16,7 @@ logging.getLogger("pikepdf").setLevel(logging.WARNING)
 logging.getLogger("faiss").setLevel(logging.WARNING)
 
 # Set USER_AGENT before any imports that might use it
-os.environ["USER_AGENT"] = "AI-Interview-App/1.0 (contact: support@xai-interview.com)"
+os.environ["USER_AGENT"] = "AI-Interview-App/1.0 (contact: burhanbhatti166.com)"
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
